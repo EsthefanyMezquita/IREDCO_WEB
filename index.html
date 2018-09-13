@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>index I-REDCO</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200i" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script type="text/javascript" src="assets/js/index.js"></script>
+    </head>
+
+  <body onload="showPromotion()">
+
+    <div id="navbar">
+      <img id="logo" src="assets/images/logo.png" alt="Logo de I-REDCO">
+      <div id="navbar-right">
+        <a class="active" href="#index">Principal</a>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#services">Servicios</a>
+        <a href="#contactus">Contáctanos</a>
+      </div>
+    </div>
+
+    <div style="margin-top:10%;font-size:30px">
+      <div class="grid-container background-gray">
+       <div class="grid-item item1">
+         <span id="title-principal">Ingeniería en Redes y Sistemas de Cómputo</span>
+         <p class="subtitle-principal" >Empresa responsable y líder en reparación, implementación y soporte de plataformas informáticas estables,
+          seguras y sólidas en ambientes multiusuario y de red.</p>
+          <hr>
+          <p class="note-principal" >Continua conociendo más acerca de nosotros y el por qué somos líderes en nuestro campo.</p>
+          <button class="button button-principal">Ver más</button>
+        </div>
+        <div class="grid-item item2">
+          <img class="image-principal" src="assets/images/principal.jpg" alt="Imagen de Equipo reunido">
+        </div>
+      </div>
+
+      <div class="row">
+        <h3 class="subtitle">¿Cuáles son nuestros pilares?</h3>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <button disabled class="item-pilar">Compromiso</button>
+            <button disabled class="item-pilar">Integridad</button>
+            <button disabled class="item-pilar">Perseverancia</button>
+            <button disabled class="item-pilar">Ética Profesional</button>
+            <button disabled class="item-pilar">Respeto</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <button disabled class="item-pilar">Honradez</button>
+            <button disabled class="item-pilar">Capacitación continua</button>
+            <button disabled class="item-pilar">Responsabilidad Social</button>
+            <button disabled class="item-pilar">Espíritu de trabajo</button>
+            <button disabled class="item-pilar">Espíritu de servicio</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <button class="item-pilar">Laboriosidad</button>
+            <button class="item-pilar">Diálogo</button>
+            <button class="item-pilar">Confidencialidad</button>
+            <button class="item-pilar">Lealtad</button>
+            <button class="item-pilar">Innovación y Creatividad</button>
+          </div>
+        </div>
+
+        <div class="row"></div>
+        <br>
+
+        <div class="background-gray">
+          <div class="row"></div>
+          <div class="row">
+            <h3 class="subtitle">¿Por qué debo invertir en tecnología para mi empresa?</h3>
+          </div>
+          <div class="row">
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/F7rk5ciBXNQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>I-REDCO</h3>
+
+				<p class="footer-links">
+					<a href="#">Principal</a>
+					·
+					<a href="#">Sobre Nosotros</a>
+					·
+					<a href="#">Servicios</a>
+					·
+					<a href="#">Contáctanos</a>
+				</p>
+
+				<p class="footer-company-name">I-REDCO &copy; 2003</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Calle 17 #379 x 40 y 42 San Pedro Uxmal</span> Mérida, Yucatán, México</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>999-1955949</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">recepcion.iredco@gmail.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>Acerca de la compañia</span>
+					Somos una empresa responsable y líder en reparación, implementación y soporte de plataformas informáticas estables, seguras y sólidas en ambientes multiusuario y de red.
+				</p>
+
+				<div class="footer-icons">
+          <!-- ICONOS PARA REDES SOCIALES -->
+				</div>
+
+			</div>
+
+		</footer>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span onclick="closePromotion()" class="close">&times;</span>
+          <h2>PROMOCIONES</h2>
+        </div>
+        <div class="modal-body">
+          <img id="promocion" src="assets/images/PROMO_JS.png" alt="Promocion Temporal">
+        </div>
+        <div class="modal-footer">
+          <h3>Si deseas conocer más acerca de esta promoción comúnicate con nostros vía Facebook o al 1-95-59-49</h3>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
